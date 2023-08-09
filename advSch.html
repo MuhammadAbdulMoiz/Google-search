@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="advStyle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+</head>
+
+<body>
+        <dl>
+            <dt>
+                <img class="i" src="google.png" alt="img" height="30px" />
+            </dt>
+            <dt><a class="i" href="index.html" text-decoration="none">Google</a></dt>
+        </dl>
+
+    <h1 class="adv">Advanced Search</h1>
+    <div class="dash"></div>
+    <h2 class="txt">Find pages with...</h2>
+    <form action="https://www.google.com/search">
+        <div class="row">
+            <div class="label">
+                <p >all these Words: </p>
+            </div>
+            <div class="input">
+                <input type="text" name="as_q" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <p >this exact word or phrase: </p>
+            </div>
+            <div class="input">
+                <input type="text" name="as_epq" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <p >any of these words: </p>
+            </div>
+            <div class="input">
+                <input type="text" name="as_oq" class="form-control" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="label">
+                <p >none of these words: </p>
+            </div>
+            <div class="input">
+                <input type="text" name="as_eq" class="form-control" />
+            </div>
+        </div>
+        <div class="dbtn"><input type="submit" value="Advanced Search" class="adv-btn"></div>
+    </form>
+</body>
+
+</html>
